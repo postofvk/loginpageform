@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: url("site_back1.png") no-repeat;
+  background-size: cover;
+}
+
+.name-login {
+  background-color: #e2dc44;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  width: 150px;
+  margin: auto;
+
+}
+
+.name-pswrd {
+  background-color: #4492e2;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  width: 150px;
+  margin: auto;
+}
+
+.login-box {
+  width: 500x;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+INPUT[type="text"] {
+  background-color: #e2dc44;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 24px;
+}
+
+INPUT[type="password"] {
+  background-color: #4492e2;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 24px;
+}
+
+.text-box1 {
+  background-color: #e2dc44;
+  overflow: hidden;
+  border-color: #e2dc44;
+  padding: 15px 11px;
+  text-align: center;
+  outline: none;
+  font-family: Montserrat;
+}
+
+.text-box {
+  overflow: hidden;
+  border: 0;
+  background: #4492e2;
+  padding: 15px 11px;
+  text-align: center;
+  outline: none;
+  font-family: Montserrat;
+
+}
+
+.btn {
+  background-color: #71e244;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 42px 10px;
+  font-size: 20px;
+  margin-top: 40px;
+  font-family: Montserrat;
+  color: white;
+  outline: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+
+.btn-1 {
+  display: inline-block;
+  border-style: solid;
+  border-color: #8744e2;
+  border-radius: 50px;
+  border: 1 solid #8744e2;
+  padding: 10px 42px 10px;
+  font-size: 20px;
+  margin-top: 40px;
+  font-family: Montserrat;
+  color: #8744e2;
+  outline: none;
+  letter-spacing: 1px;
+  background-color: white;
+  cursor: pointer;
+  text-decoration: none;
+
+}
