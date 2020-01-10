@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   background: url("site_back1.png") no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .name-login {
